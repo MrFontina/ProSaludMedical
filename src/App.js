@@ -1,9 +1,9 @@
-import "./App.css";
+import "./Styles/App.scss";
 
 function App() {
   return (
     <>
-      <h1>Pro Salud Medical</h1>
+      <h1 class="titulo">Pro Salud Medical</h1>
     </>
   );
 }
