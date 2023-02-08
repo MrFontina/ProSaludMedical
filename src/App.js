@@ -1,9 +1,14 @@
+import Header from "./Componentes/Header";
+import Main from "./Componentes/Main";
+import Footer from "./Componentes/Footer";
 import "./Styles/App.scss";
 
 function App() {
   return (
     <>
-      <h1 class="titulo">Pro Salud Medical</h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }

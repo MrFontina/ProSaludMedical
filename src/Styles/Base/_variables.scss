@@ -1,0 +1,11 @@
+$color-base: #f0f0f5;
+$color-oscuro: #13131a;
+$color-principal: #3a96cf;
+$color-secundario: #2a66ae;
+$color-detalle: #d1d1d1;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

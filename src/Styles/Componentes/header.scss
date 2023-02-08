@@ -1,0 +1,10 @@
+header {
+  @include flex;
+  gap: 10px;
+  height: 80px;
+  background-color: $color-principal;
+  color: $color-base;
+}
+.logo {
+  height: 60px;
+}
