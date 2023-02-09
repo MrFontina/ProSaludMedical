@@ -4,7 +4,10 @@ header {
   height: 80px;
   background-color: $color-principal;
   color: $color-base;
-}
-.logo {
-  height: 60px;
+  .logo {
+    height: 60px;
+  }
+  h1 {
+    font-family: "Oswald", sans-serif;
+  }
 }
