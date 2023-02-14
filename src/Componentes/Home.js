@@ -30,27 +30,27 @@ const Home = () => {
         <h2>Nuestra Red de Proveedores</h2>
         <section>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Mas de 5000 proveedores de salud en todo el pais</p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Convenio con mas de 300 hospitales</p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Asociados a mas de 200 laboratorios y gabinetes</p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Mas de 5000 proveedores de salud en todo el pais</p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Convenio con mas de 300 hospitales</p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>Asociados a mas de 200 laboratorios y gabinetes</p>
           </article>
         </section>
