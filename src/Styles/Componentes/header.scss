@@ -13,10 +13,13 @@ header {
     
   }
   .navLeft{
-    display: flex;
-    align-items: center;
-    justify-content: start;    
     width: 400px;
+    a{
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
   }
   .navRight{
     width:40%;    
