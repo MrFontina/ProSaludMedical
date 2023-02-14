@@ -7,6 +7,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     color: black;
+    font-family: "gotham_narrowlight";
     .footRight {
       width: 15%;
       text-align: center;
@@ -14,14 +15,22 @@ footer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
       .redes {
         width: 55%;
         display: flex;
         justify-content: space-evenly;
+        margin-top: 8px;
         a {
           color: black;
         }
       }
+    }
+    .footLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;      
     }
   }
 }
