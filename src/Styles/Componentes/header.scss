@@ -1,35 +1,36 @@
 header {
-  @include flex;
-  justify-content: space-around;
-  gap: 10px;
-  // height: 80px;
-  background-color: $color-1;
-  color: $color-claro;
-  .logo {
-    height: 60px;
-  }
-  h1 {
-    font-family: "gotham_narrowbook", sans-serif;
-    
-  }
-  .navLeft{
-    width: 400px;
-    a{
-      color: white;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
+  .div-header {
+    @include flex;
+    justify-content: space-around;
+    gap: 10px;
+    height: 100px;
+    background-color: $color-1;
+    color: $color-claro;
+    .logo {
+      height: 60px;
     }
-  }
-  .navRight{
-    width:40%;    
-  }
-  .links{
-    display: flex;
-    justify-content: space-between;
-  }
-  .navLink{
-    color: black;
-    text-decoration: none;
+    h1 {
+      font-family: "gotham_narrowbook", sans-serif;
+    }
+    .navLeft {
+      width: 400px;
+      a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+      }
+    }
+    .navRight {
+      width: 40%;
+      .links {
+        display: flex;
+        justify-content: space-between;
+        .navLink {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
