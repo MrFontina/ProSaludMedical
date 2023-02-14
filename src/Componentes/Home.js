@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Componentes/home.scss";
+
 const Home = () => {
   return (
     <div class="container-home">
