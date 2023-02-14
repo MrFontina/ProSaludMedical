@@ -1,8 +1,10 @@
-$color-base: #f0f0f5;
-$color-oscuro: #13131a;
-$color-principal: #3a96cf;
-$color-secundario: #2a66ae;
-$color-detalle: #d1d1d1;
+$color-1: #2a66ae;
+$color-2: #3a96cf;
+$color-3: #d1d1d1;
+$color-func-1: #282840;
+$color-func-2: #00a696;
+$color-fondo: #f2f2f2;
+$color-claro: #fdfdfd;
 
 @mixin flex {
   display: flex;

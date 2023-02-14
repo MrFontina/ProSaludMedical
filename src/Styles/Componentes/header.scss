@@ -2,12 +2,12 @@ header {
   @include flex;
   gap: 10px;
   height: 80px;
-  background-color: $color-principal;
-  color: $color-base;
+  background-color: $color-1;
+  color: $color-claro;
   .logo {
     height: 60px;
   }
   h1 {
-    font-family: "Oswald", sans-serif;
+    font-family: "gotham_narrowbook", sans-serif;
   }
 }
