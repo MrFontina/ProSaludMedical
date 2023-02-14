@@ -1,10 +1,54 @@
 @import "../Base/variables.scss";
-.container-home {
-  position: relative;
-  background-color: $color-fondo;
-  height: 400px;
+.custom-shape-divider-top-1676337758 {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1676337758 svg {
+  position: relative;
+  display: block;
+  width: calc(152% + 1.3px);
+  height: 98px;
+}
+
+.custom-shape-divider-top-1676337758 .shape-fill {
+  fill: $color-fondo;
+}
+.custom-shape-divider-bottom-1676338074 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1676338074 svg {
+  position: relative;
+  display: block;
+  width: calc(152% + 1.3px);
+  height: 64px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1676338074 .shape-fill {
+  fill: $color-fondo;
+}
+
+.container-home {
+  background-color: $color-fondo;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
   .banner {
+    position: relative;
     background-image: linear-gradient(
         to left,
         rgba(242, 242, 242, 1),
@@ -13,7 +57,7 @@
       ),
       url("../../../public/Images/medico1.png");
     background-size: 50%;
-    height: 100%;
+    height: 500px;
     width: 100%;
     margin: auto;
     background-repeat: no-repeat;
@@ -24,7 +68,7 @@
     -moz-border-radius: 33% 0% 100% 35% / 0% 77% 100% 0%;
     -ms-border-radius: 33% 0% 100% 35% / 0% 77% 100% 0%;
     -o-border-radius: 33% 0% 100% 35% / 0% 77% 100% 0%;
-    overflow: hidden;
+    // overflow: hidden;
 
     .banner-presentacion {
       display: flex;
@@ -72,6 +116,96 @@
           font-family: "gotham_narrowbook";
           text-decoration: none;
           color: $color-claro;
+        }
+      }
+    }
+  }
+  .div-presentacion {
+    width: 60%;
+    margin: auto;
+    p {
+      font-family: "gotham_narrowmedium";
+      font-size: 1.3rem;
+      text-align: center;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+  .div-proveedores {
+    width: 70%;
+    margin: auto;
+    h2 {
+      font-family: "gotham_narrowmedium";
+    }
+    section {
+      margin-top: 40px;
+      display: grid;
+      gap: 3.25rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      article {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        border-radius: 20px;
+        width: 300px;
+        height: 350px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        overflow: hidden;
+        img {
+          height: 70%;
+          width: 100%;
+        }
+        p {
+          height: 30%;
+          padding: 20px;
+          text-align: center;
+          font-family: "gotham_narrowbook";
+        }
+      }
+    }
+  }
+  .div-afiliados {
+    background-color: $color-2;
+    position: relative;
+    height: 550px;
+    margin-bottom: 150px;
+    h2 {
+      padding-top: 90px;
+      text-align: center;
+      color: $color-claro;
+    }
+    section {
+      margin: 40px auto;
+      @include flex;
+      gap: 50px;
+      article {
+        margin-top: 20px;
+        position: relative;
+        height: 250px;
+        width: 250px;
+        background-color: aquamarine;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        img {
+          position: absolute;
+          top: -40px;
+          left: 85px;
+          width: 80px;
+          height: 80px;
+          border-radius: 100%;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          -ms-border-radius: 100%;
+          -o-border-radius: 100%;
+        }
+        p {
+          padding: 60px 30px 30px;
         }
       }
     }
