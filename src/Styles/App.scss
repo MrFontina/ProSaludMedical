@@ -2,8 +2,32 @@
 @import "../Styles/Componentes/header.scss";
 @import "../Styles/Componentes/main.scss";
 @import "../Styles/Componentes/footer.scss";
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import "../Styles/Componentes/home.scss";
+@font-face {
+  font-family: "gotham_narrowbook";
+  src: url("./Fonts/gothamnarrow-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gotham_narrowlight";
+  src: url("./Fonts/gothamnarrow-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gotham_narrowmedium";
+  src: url("./Fonts/gothamnarrow-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gotham_narrowblack";
+  src: url("./Fonts/gothamnarrow-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
