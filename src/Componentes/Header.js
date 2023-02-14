@@ -8,9 +8,7 @@ const Header = () => {
         <Link to='/'>
         <img class="logo" src="../../Images/logo2.png" alt="logo" />
         <h1>Pro Salud Medical</h1>
-        </Link>
-        
-      
+        </Link>       
       </div>
       <div className="navRight">
         <div className="links">
