@@ -72,7 +72,7 @@ const Home = () => {
         <h2>Conoce la opinion de nuestros afiliados</h2>
         <section>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -80,7 +80,7 @@ const Home = () => {
             </p>
           </article>
           <article>
-            <img alt="" src="./images/medico2.png" />
+            <img alt="" src="../../Images/medico2.png" />
             <p>
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
