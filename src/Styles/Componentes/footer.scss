@@ -15,19 +15,16 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: start;
+      align-items: flex-start;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
       line-height: 24px;
-      
 
       .redes {
-        
         display: flex;
         justify-content: space-evenly;
         margin-top: 8px;
-        
 
         a {
           color: white;
@@ -36,7 +33,7 @@ footer {
         .redIcon {
           width: 46px;
           height: 46px;
-          border: 2px solid #00A696;
+          border: 2px solid #00a696;
           border-radius: 23px;
           margin-right: 7px;
         }
@@ -46,7 +43,7 @@ footer {
     .footLeft {
       display: flex;
       flex-direction: column;
-      align-items: start;
+      align-items: flex-start;
       justify-content: space-evenly;
       font-style: normal;
       font-weight: 400;

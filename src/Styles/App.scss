@@ -4,6 +4,7 @@
 @import "../Styles/Componentes/home.scss";
 @import "../Styles/Componentes/footer.scss";
 @import "../Styles/Componentes/nosotros.scss";
+@import "../Styles/Componentes/reviews.scss";
 
 @font-face {
   font-family: "gotham_narrowbook";
@@ -39,6 +40,7 @@ html,
 body,
 #root {
   height: 100%;
+  line-height: 1.5;
 }
 
 #root {
