@@ -3,17 +3,20 @@ header {
     @include flex;
     justify-content: space-around;
     gap: 10px;
-    height: 100px;
+    height: 80px;
     background-color: $color-1;
     color: $color-claro;
-    .logo {
-      height: 60px;
-    }
-    h1 {
-      font-family: "gotham_narrowbook", sans-serif;
-    }
+
+    // .logo {
+    //   width: 174px;
+    //   height: 96.55px;
+    // }
+    // h1 {
+    //   font-family: "gotham_narrowbook", sans-serif;
+    // }
     .navLeft {
       width: 400px;
+
       a {
         color: white;
         text-decoration: none;
@@ -21,15 +24,32 @@ header {
         align-items: center;
       }
     }
+
     .navRight {
       width: 40%;
+
       .links {
         display: flex;
         justify-content: space-between;
-        font-family: "gotham_narrowbook";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
         .navLink {
-          color: black;
+          color: white;
           text-decoration: none;
+        }
+
+        .proveedor {
+          text-align: center;
+          background: #00A696;
+          padding-top: 6px;
+          margin-top: -6px;
+          border: 1px solid #00A696;
+          border-radius: 10px;
+          width: 251px;
+          height: 44px;
         }
       }
     }

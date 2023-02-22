@@ -1,36 +1,57 @@
 footer {
   .div-footer {
-    height: 100px;
-    background-color: $color-2;
+    height: 139px;
+    background-color: $color-1;
     color: $color-claro;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: black;
+    color: white;
     font-family: "gotham_narrowlight";
+
     .footRight {
-      width: 15%;
+      width: 20%;
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: start;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
       
+
       .redes {
-        width: 55%;
+        
         display: flex;
         justify-content: space-evenly;
         margin-top: 8px;
+        
+
         a {
-          color: black;
+          color: white;
+        }
+
+        .redIcon {
+          width: 46px;
+          height: 46px;
+          border: 2px solid #00A696;
+          border-radius: 23px;
+          margin-right: 7px;
         }
       }
     }
-    .footLeft{
+
+    .footLeft {
       display: flex;
       flex-direction: column;
       align-items: start;
-      justify-content: center;      
+      justify-content: space-evenly;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
     }
   }
 }

@@ -8,8 +8,8 @@ const Header = () => {
       <div class="div-header">
         <div className="navLeft">
           <Link to="/">
-            <img className="logo" src="../../Images/logo2.png" alt="logo" />
-            <h1>Pro Salud Medical</h1>
+            <img className="logo" src="../../Images/logo3.png" alt="logo" />
+            {/* <h1>Pro Salud Medical</h1> */}
           </Link>
         </div>
         <div className="navRight">
@@ -20,8 +20,8 @@ const Header = () => {
             <Link to="/servicios" className="navLink">
               Servicios
             </Link>
-            <Link to="/proveedores" className="navLink">
-              ¿Quieres ser proovedor?
+            <Link to="/proveedores" className="navLink proveedor">
+              ¿Quieres ser proveedor?
             </Link>
             <Link to="/contacto" className="navLink">
               Contacto
