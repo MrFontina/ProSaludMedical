@@ -1,14 +1,16 @@
 .contenedor-nosotros {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
+
 
     .nosotros-left {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        
+        margin-left: 50px;
+
 
         .nosotros-card {
             display: flex;
@@ -18,14 +20,14 @@
             img {
                 width: 75px;
                 height: 75px;
-                
+
             }
 
             .card-content {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                
+
                 padding: 0px;
                 gap: 10px;
 
@@ -34,6 +36,23 @@
 
                 background: linear-gradient(267.32deg, rgba(58, 150, 207, 0.15) 4.1%, rgba(253, 253, 253, 0.46) 73.61%);
                 border-radius: 0px 20px 20px 0px;
+
+                h5 {
+                    
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+
+                p {
+                    font-family: "gotham_narrowlight";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+
+                }
             }
 
         }
@@ -42,5 +61,10 @@
 
     .nosotros-right {
         width: 50%;
+
+        .doctorNosotros {
+            width: 100%;
+
+        }
     }
 }
