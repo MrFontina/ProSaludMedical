@@ -18,7 +18,7 @@ const Footer = () => {
               <img src="../../Images/Facebook.png" alt="facebook" className="redIcon"></img>
             </a>
             <a href="https://www.youtube.com/channel/UCubuVxops5N4RX4sX4tZBXg">
-              <img src="../../Images/Linkedin.png" alt="linkedin" className="redIcon"></img>
+              <img src="../../Images/LinkedIn.png" alt="linkedin" className="redIcon"></img>
             </a>
             <a href="https://www.tiktok.com/@prosalmedic">
               <img src="../../Images/TikTok.png" alt="tik tok" className="redIcon"></img>
