@@ -1,0 +1,46 @@
+.contenedor-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+
+    .nosotros-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+        .nosotros-card {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: center;
+
+            img {
+                width: 75px;
+                height: 75px;
+                
+            }
+
+            .card-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                padding: 0px;
+                gap: 10px;
+
+                width: 463px;
+                height: 174px;
+
+                background: linear-gradient(267.32deg, rgba(58, 150, 207, 0.15) 4.1%, rgba(253, 253, 253, 0.46) 73.61%);
+                border-radius: 0px 20px 20px 0px;
+            }
+
+        }
+
+    }
+
+    .nosotros-right {
+        width: 50%;
+    }
+}
