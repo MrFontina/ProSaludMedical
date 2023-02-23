@@ -29,7 +29,7 @@ const Nosotros = () => {
           </div>
         </div>
         <div className="nosotros-right">
-          <img src="../../Images/medicorecortado.png" alt=""></img>
+          <img src="../../Images/medicorecortado.png" alt="" className="doctorNosotros"></img>
         </div>
       </div>
     
