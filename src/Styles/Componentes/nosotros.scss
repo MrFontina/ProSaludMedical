@@ -1,70 +1,75 @@
 .contenedor-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+
+  .nosotros-left {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 60px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
 
+    .nosotros-card {
+      display: flex;
+      margin-bottom: 30px;
+      align-items: center;
 
-    .nosotros-left {
+      img {
+        width: 75px;
+        height: 75px;
+      }
+
+      .card-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin-left: 50px;
+        justify-content: center;
 
+        padding: 0px;
+        gap: 10px;
 
-        .nosotros-card {
-            display: flex;
-            margin-bottom: 30px;
-            align-items: center;
+        width: 463px;
+        height: 174px;
 
-            img {
-                width: 75px;
-                height: 75px;
+        background: linear-gradient(
+          267.32deg,
+          rgba(58, 150, 207, 0.15) 4.1%,
+          rgba(253, 253, 253, 0.46) 73.61%
+        );
+        border-radius: 0px 20px 20px 0px;
 
-            }
-
-            .card-content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                padding: 0px;
-                gap: 10px;
-
-                width: 463px;
-                height: 174px;
-
-                background: linear-gradient(267.32deg, rgba(58, 150, 207, 0.15) 4.1%, rgba(253, 253, 253, 0.46) 73.61%);
-                border-radius: 0px 20px 20px 0px;
-
-                h5 {
-                    
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 24px;
-                }
-
-                p {
-                    font-family: "gotham_narrowlight";
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 24px;
-
-                }
-            }
-
+        h5 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
         }
 
-    }
-
-    .nosotros-right {
-        width: 50%;
-
-        .doctorNosotros {
-            width: 100%;
-
+        p {
+          font-family: "gotham_narrowlight";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
         }
+      }
     }
+  }
+
+  .nosotros-right {
+    width: 50%;
+
+    .doctorNosotros {
+      width: 100%;
+      height: 100%;
+      border-radius: 32% 71% 0% 29% / 50% 33% 45% 50%;
+      -webkit-border-radius: 32% 71% 0% 29% / 50% 33% 45% 50%;
+      -moz-border-radius: 32% 71% 0% 29% / 50% 33% 45% 50%;
+      -ms-border-radius: 32% 71% 0% 29% / 50% 33% 45% 50%;
+      -o-border-radius: 32% 71% 0% 29% / 50% 33% 45% 50%;
+      overflow: hidden;
+      object-fit: cover;
+      object-position: 0px;
+    }
+  }
 }

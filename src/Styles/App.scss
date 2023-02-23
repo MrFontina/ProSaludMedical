@@ -5,6 +5,8 @@
 @import "../Styles/Componentes/footer.scss";
 @import "../Styles/Componentes/nosotros.scss";
 @import "../Styles/Componentes/reviews.scss";
+@import "../Styles/Componentes/whatsapp.scss";
+@import "../Styles/Componentes/servicios.scss";
 
 @font-face {
   font-family: "gotham_narrowbook";
@@ -31,8 +33,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 * {
   margin: 0;

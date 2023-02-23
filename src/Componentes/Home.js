@@ -1,5 +1,6 @@
 import React from "react";
 import ReviewList from "./ReviewList";
+import Whatsapp from "./Whatsapp";
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
       <div className="div-afiliados">
         <ReviewList />
       </div>
+      <Whatsapp />
     </div>
   );
 };
