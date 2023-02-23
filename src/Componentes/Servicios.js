@@ -83,7 +83,7 @@ const Servicios = () => {
           <div className="div-secciones">
             <article>
               <div>
-                <img src="../../images/salud.png" alt="salud" />
+                <img src="../../Images/salud.png" alt="salud" />
                 <h4>Salud</h4>
               </div>
               <a href=".">
@@ -92,7 +92,7 @@ const Servicios = () => {
             </article>
             <article>
               <div>
-                <img src="../../images/asistencia.jpg" alt="asistencias" />
+                <img src="../../Images/asistencia.jpg" alt="asistencias" />
                 <h4>Asistencias</h4>
               </div>
               <a href=".">
@@ -101,7 +101,7 @@ const Servicios = () => {
             </article>
             <article>
               <div>
-                <img src="../../images/poliza.png" alt="polizas" />
+                <img src="../../Images/poliza.png" alt="polizas" />
                 <h4>Poliza de Accidentes</h4>
               </div>
               <a href=".">
@@ -110,7 +110,7 @@ const Servicios = () => {
             </article>
             <article>
               <div>
-                <img src="../../images/beneficios.jpg" alt="beneficios" />
+                <img src="../../Images/beneficios.jpg" alt="beneficios" />
                 <h4>Beneficios</h4>
               </div>
               <a href=".">
