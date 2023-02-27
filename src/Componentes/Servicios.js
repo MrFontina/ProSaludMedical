@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRightCircleFill, BsFillCheckCircleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Servicios = () => {
   return (
@@ -86,9 +87,9 @@ const Servicios = () => {
                 <img src="../../Images/salud.png" alt="salud" />
                 <h4>Salud</h4>
               </div>
-              <a href=".">
+              <Link to="/servicios/salud">
                 <BsArrowRightCircleFill />
-              </a>
+              </Link>
             </article>
             <article>
               <div>

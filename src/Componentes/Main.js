@@ -5,6 +5,7 @@ import Nosotros from "./Nosotros";
 import Servicios from "./Servicios";
 import Proveedores from "./Proveedores";
 import Contacto from "./Contacto";
+import Salud from "./Salud";
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <Route path="/:Home" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
+        <Route path="/servicios/salud" element={<Salud/>}/>
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route

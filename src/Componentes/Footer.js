@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <div class="div-footer">
+      <div className="div-footer">
         <div className="footLeft">
           <p>Preguntas Frecuentes</p>
           <p>Aviso de Privacidad</p>
@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/Pro-Salud-Medical-102057139176033">
               <img src="../../Images/Facebook.png" alt="facebook" className="redIcon"></img>
             </a>
-            <a href="https://www.youtube.com/channel/UCubuVxops5N4RX4sX4tZBXg">
+            <a href="https://www.linkedin.com/company/pro-salud-medical/">
               <img src="../../Images/LinkedIn.png" alt="linkedin" className="redIcon"></img>
             </a>
             <a href="https://www.tiktok.com/@prosalmedic">
