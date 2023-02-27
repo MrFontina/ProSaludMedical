@@ -1,6 +1,6 @@
 .titleMembresia {
     margin-left: 121px;
-margin-top: 44px;
+    margin-top: 44px;
     h4 {
         font-style: normal;
         font-weight: 400;
@@ -87,4 +87,13 @@ line-height: 48px;
             transform: scale(1.1);;
         }
     }
+}
+
+.containerCardsBeneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-left: 100px;
 }

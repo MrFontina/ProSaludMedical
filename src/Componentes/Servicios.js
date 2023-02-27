@@ -96,27 +96,27 @@ const Servicios = () => {
                 <img src="../../Images/asistencia.jpg" alt="asistencias" />
                 <h4>Asistencias</h4>
               </div>
-              <a href=".">
+              <Link to="/servicios/asistencias">
                 <BsArrowRightCircleFill />{" "}
-              </a>
+              </Link>
             </article>
             <article>
               <div>
                 <img src="../../Images/poliza.png" alt="polizas" />
                 <h4>Poliza de Accidentes</h4>
               </div>
-              <a href=".">
+              <Link to="/servicios/polizas">
                 <BsArrowRightCircleFill />{" "}
-              </a>
+              </Link>
             </article>
             <article>
               <div>
                 <img src="../../Images/beneficios.jpg" alt="beneficios" />
                 <h4>Beneficios</h4>
               </div>
-              <a href=".">
+              <Link to="/servicios/beneficios">
                 <BsArrowRightCircleFill />{" "}
-              </a>
+              </Link>
             </article>
           </div>
         </div>

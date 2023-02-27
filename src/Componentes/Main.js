@@ -6,6 +6,9 @@ import Servicios from "./Servicios";
 import Proveedores from "./Proveedores";
 import Contacto from "./Contacto";
 import Salud from "./Salud";
+import Asistencias from "./Asistencias";
+import Polizas from "./Polizas";
+import Beneficios from "./Beneficios";
 
 const Main = () => {
   return (
@@ -16,6 +19,9 @@ const Main = () => {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/servicios/salud" element={<Salud/>}/>
+        <Route path="/servicios/asistencias" element={<Asistencias/>}/>
+        <Route path="/servicios/polizas" element={<Polizas/>}/>
+        <Route path="/servicios/beneficios" element={<Beneficios/>}/>
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route
