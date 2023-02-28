@@ -5,7 +5,10 @@ const Nosotros = () => {
     <div className="contenedor-nosotros">
       <div className="nosotros-left">
         <div className="nosotros-card">
-          <img src="../../Images/flecha.png" alt=""></img>
+          <div className="card-left">
+            <img src="../../Images/flecha.png" alt=""></img>
+          </div>
+
           <div className="card-content">
             <h5>Misión</h5>
             <p>
@@ -16,7 +19,9 @@ const Nosotros = () => {
           </div>
         </div>
         <div className="nosotros-card">
-          <img src="../../Images/ojo.png" alt=""></img>
+          <div className="card-left">
+            <img src="../../Images/ojo.png" alt=""></img>
+          </div>
           <div className="card-content">
             <h5>Visión</h5>
             <p>
@@ -28,7 +33,9 @@ const Nosotros = () => {
           </div>
         </div>
         <div className="nosotros-card">
-          <img src="../../Images/valores.png" alt=""></img>
+          <div className="card-left">
+            <img src="../../Images/valores.png" alt=""></img>
+          </div>
           <div className="card-content">
             <h5>Valores</h5>
             <p>

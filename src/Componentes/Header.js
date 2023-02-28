@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -30,8 +31,8 @@ const Header = () => {
                   <Link to="/servicios" className="navLink">
                     Servicios
                   </Link>
-                  <Link to="/proveedores" className="navLink proveedor">
-                    ¿Quieres ser proveedor?
+                  <Link to="/proveedores" className="navLink">
+                  <Button variant="success" className="botonProveedor">¿Quieres ser proveedor?</Button>                    
                   </Link>
                   <Link to="/contacto" className="navLink">
                     Contacto
