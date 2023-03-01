@@ -9,6 +9,7 @@ footer {
     justify-content: space-between;
     color: white;
     font-family: "gotham_narrowlight";
+    
     @media(max-width: 500px){
       flex-direction: column-reverse;
       align-items: center;
@@ -30,6 +31,12 @@ footer {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
+      p{
+        cursor: pointer;
+        &:hover{
+          color: black;
+        }
+      }
       @media(max-width: 500px){
         margin-right: 0px;
         align-items: center;
@@ -67,6 +74,12 @@ footer {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
+      cursor: pointer;
+      p{
+        &:hover{
+          color: black;
+        }
+      }
       @media(max-width: 500px){
         margin-left: 0px;;
         align-items: center;
