@@ -60,15 +60,19 @@
         }
         h2 {
           font-family: "gotham_narrowmedium";
+          font-size: 40px;
         }
         h3 {
           font-family: "gotham_narrowbook";
+          font-size: 28px;
         }
         p {
           font-family: "gotham_narrowlight";
+          font-size: 24px;
         }
         button {
           border: $color-func-2;
+          font-size: 20px;
           background-color: $color-func-2;
           width: 150px;
           padding: 5px 10px;
@@ -109,7 +113,7 @@
     }
     p {
       font-family: "gotham_narrowmedium";
-      font-size: 1.3rem;
+      font-size: 28px;
       text-align: center;
       @media (max-width: 800px) {
         font-size: 1rem;

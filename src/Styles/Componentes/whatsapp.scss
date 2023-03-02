@@ -1,4 +1,7 @@
 .btn-wp {
+  @include flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   height: 45px;
   width: 45px;
