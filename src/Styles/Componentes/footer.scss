@@ -1,16 +1,28 @@
 footer {
+  width: 100%;
+
   .div-footer {
     height: 139px;
     background-color: $color-1;
     color: $color-claro;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     font-family: "gotham_narrowlight";
 
+    @media(max-width: 500px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 220px;
+    }
+
+
+
+
     .footRight {
-      width: 20%;
+      margin-right: 46px;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -18,8 +30,23 @@ footer {
       align-items: flex-start;
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 22px;
+
+      p {
+        cursor: pointer;
+
+        &:hover {
+          color: black;
+        }
+      }
+
+      @media(max-width: 500px) {
+        margin-right: 0px;
+        align-items: center;
+
+
+      }
 
       .redes {
         display: flex;
@@ -33,22 +60,42 @@ footer {
         .redIcon {
           width: 46px;
           height: 46px;
-          border: 2px solid #00a696;
-          border-radius: 23px;
           margin-right: 7px;
+          margin-left: 7px;
+          transition: 1s;
+
+          &:hover {
+            border: 2px solid #00a696;
+            border-radius: 23px;
+          }
         }
       }
     }
 
     .footLeft {
+      margin-left: 34px;
+
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: space-evenly;
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 22px;
+      cursor: pointer;
+
+      p {
+        &:hover {
+          color: black;
+        }
+      }
+
+      @media(max-width: 500px) {
+        margin-left: 0px;
+        ;
+        align-items: center;
+      }
     }
   }
 }

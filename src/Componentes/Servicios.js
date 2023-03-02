@@ -82,42 +82,50 @@ const Servicios = () => {
             </ul>
           </div>
           <div className="div-secciones">
-            <article>
-              <div>
-                <img src="../../Images/salud.png" alt="salud" />
-                <h4>Salud</h4>
-              </div>
-              <Link to="/servicios/salud">
-                <BsArrowRightCircleFill />
-              </Link>
-            </article>
-            <article>
-              <div>
-                <img src="../../Images/asistencia.jpg" alt="asistencias" />
-                <h4>Asistencias</h4>
-              </div>
-              <Link to="/servicios/asistencias">
-                <BsArrowRightCircleFill />{" "}
-              </Link>
-            </article>
-            <article>
-              <div>
-                <img src="../../Images/poliza.png" alt="polizas" />
-                <h4>Poliza de Accidentes</h4>
-              </div>
-              <Link to="/servicios/polizas">
-                <BsArrowRightCircleFill />{" "}
-              </Link>
-            </article>
-            <article>
-              <div>
-                <img src="../../Images/beneficios.jpg" alt="beneficios" />
-                <h4>Beneficios</h4>
-              </div>
-              <Link to="/servicios/beneficios">
-                <BsArrowRightCircleFill />{" "}
-              </Link>
-            </article>
+            <Link className="servicelink" to="/servicios/salud">
+              <article>
+                <div>
+                  <img src="../../Images/salud.png" alt="salud" />
+                  <h4>Salud</h4>
+                </div>
+                <div className="arrowico">
+                  <BsArrowRightCircleFill />
+                </div>
+              </article>
+            </Link>
+            <Link className="servicelink" to="/servicios/asistencias">
+              <article>
+                <div>
+                  <img src="../../Images/asistencia.jpg" alt="asistencias" />
+                  <h4>Asistencias</h4>
+                </div>
+                <div className="arrowico">
+                  <BsArrowRightCircleFill />{" "}
+                </div>
+              </article>
+            </Link>
+            <Link className="servicelink" to="/servicios/polizas">
+              <article>
+                <div>
+                  <img src="../../Images/poliza.png" alt="polizas" />
+                  <h4>Poliza de Accidentes</h4>
+                </div>
+                <div className="arrowico">
+                  <BsArrowRightCircleFill />{" "}
+                </div>
+              </article>
+            </Link>
+            <Link className="servicelink" to="/servicios/beneficios">
+              <article>
+                <div>
+                  <img src="../../Images/beneficios.jpg" alt="beneficios" />
+                  <h4>Beneficios</h4>
+                </div>
+                <div className="arrowico">
+                  <BsArrowRightCircleFill />{" "}
+                </div>
+              </article>
+            </Link>
           </div>
         </div>
       </div>
