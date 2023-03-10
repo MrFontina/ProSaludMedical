@@ -2,7 +2,7 @@ footer {
   width: 100%;
 
   .div-footer {
-    height: 139px;
+    height: 100px;
     background-color: $color-1;
     color: $color-claro;
     display: flex;
@@ -11,15 +11,12 @@ footer {
     color: white;
     font-family: "gotham_narrowlight";
 
-    @media(max-width: 500px) {
+    @media (max-width: 500px) {
       flex-direction: column-reverse;
       align-items: center;
       justify-content: space-evenly;
       height: 220px;
     }
-
-
-
 
     .footRight {
       margin-right: 46px;
@@ -27,46 +24,44 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
+      align-items: center;
+      height: 100%;
 
-      p {
-        cursor: pointer;
-
-        &:hover {
-          color: black;
-        }
-      }
-
-      @media(max-width: 500px) {
+      @media (max-width: 500px) {
         margin-right: 0px;
         align-items: center;
-
-
       }
 
       .redes {
         display: flex;
         justify-content: space-evenly;
-        margin-top: 8px;
+        gap: 4px;
 
         a {
           color: white;
         }
 
         .redIcon {
-          width: 46px;
-          height: 46px;
-          margin-right: 7px;
-          margin-left: 7px;
-          transition: 1s;
+          color: $color-1;
+          font-size: 2rem;
+          background-color: $color-fondo;
+          padding: 6px;
+          border-radius: 50px;
+          -webkit-border-radius: 50px;
+          -moz-border-radius: 50px;
+          -ms-border-radius: 50px;
+          -o-border-radius: 50px;
 
           &:hover {
-            border: 2px solid #00a696;
-            border-radius: 23px;
+            background-color: $color-func-2;
+            color: $color-fondo;
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            animation: shake 0.4s;
+            -webkit-animation: shake 0.4s;
           }
         }
       }
@@ -85,17 +80,44 @@ footer {
       line-height: 22px;
       cursor: pointer;
 
-      p {
-        &:hover {
-          color: black;
+      a {
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        color: white;
+        font-size: 1rem;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $color-func-2;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        &:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
         }
       }
 
-      @media(max-width: 500px) {
+      @media (max-width: 500px) {
         margin-left: 0px;
-        ;
+        margin-bottom: 10px;
         align-items: center;
       }
     }
+  }
+}
+@keyframes shake {
+  70% {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
   }
 }

@@ -154,3 +154,15 @@
     }
   }
 }
+.reveal {
+  @include reveal;
+}
+.reveal.active {
+  @include revealactive;
+}
+.reveal2 {
+  @include reveal2;
+}
+.reveal2.active {
+  @include reveal2active;
+}

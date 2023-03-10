@@ -11,3 +11,48 @@ $color-claro: #fdfdfd;
   justify-content: center;
   align-items: center;
 }
+@mixin reveal {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+  -webkit-transform: translateX(-150px);
+  -moz-transform: translateX(-150px);
+  -ms-transform: translateX(-150px);
+  -o-transform: translateX(-150px);
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -ms-transition: 1s all ease;
+  -o-transition: 1s all ease;
+}
+
+@mixin revealactive {
+  transform: translateX(0);
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+@mixin reveal2 {
+  position: relative;
+  opacity: 0;
+  transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -ms-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  transform: perspective(2500px) rotateX(-100deg);
+  -webkit-transform: perspective(2500px) rotateX(-100deg);
+  -moz-transform: perspective(2500px) rotateX(-100deg);
+  -ms-transform: perspective(2500px) rotateX(-100deg);
+  -o-transform: perspective(2500px) rotateX(-100deg);
+}
+@mixin reveal2active {
+  opacity: 1;
+  transform: perspective(2500px) rotateX(0deg);
+  -webkit-transform: perspective(2500px) rotateX(0deg);
+  -moz-transform: perspective(2500px) rotateX(0deg);
+  -ms-transform: perspective(2500px) rotateX(0deg);
+  -o-transform: perspective(2500px) rotateX(0deg);
+}

@@ -1,13 +1,14 @@
 import React from "react";
 import { BsArrowRightCircleFill, BsFillCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
+import { reveal } from "../Utility/animation.js";
 const Servicios = () => {
+  reveal();
   return (
     <div className="div-servicios">
       <div className="div-banner">
         <div>
-          <h1>Atencion 24/7</h1>
+          <h1 className="reveal2">Atencion 24/7</h1>
         </div>
       </div>
       <div className="div-pres-servicios">
@@ -83,7 +84,7 @@ const Servicios = () => {
           </div>
           <div className="div-secciones">
             <Link className="servicelink" to="/servicios/salud">
-              <article>
+              <article className="reveal">
                 <div>
                   <img src="../../Images/salud.png" alt="salud" />
                   <h4>Salud</h4>
@@ -94,7 +95,8 @@ const Servicios = () => {
               </article>
             </Link>
             <Link className="servicelink" to="/servicios/asistencias">
-              <article>
+              <article className="reveal">
+                {" "}
                 <div>
                   <img src="../../Images/asistencia.jpg" alt="asistencias" />
                   <h4>Asistencias</h4>
@@ -105,7 +107,8 @@ const Servicios = () => {
               </article>
             </Link>
             <Link className="servicelink" to="/servicios/polizas">
-              <article>
+              <article className="reveal">
+                {" "}
                 <div>
                   <img src="../../Images/poliza.png" alt="polizas" />
                   <h4>Poliza de Accidentes</h4>
@@ -116,7 +119,8 @@ const Servicios = () => {
               </article>
             </Link>
             <Link className="servicelink" to="/servicios/beneficios">
-              <article>
+              <article className="reveal">
+                {" "}
                 <div>
                   <img src="../../Images/beneficios.jpg" alt="beneficios" />
                   <h4>Beneficios</h4>

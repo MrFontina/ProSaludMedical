@@ -50,8 +50,8 @@
         -o-border-radius: 15px;
         box-shadow: rgba(58, 150, 207, 0.15) 0px 20px 25px -5px,
           rgba(58, 150, 207, 0.05) 0px 10px 10px -5px;
-        @media (max-width: 500px) {
-          height: 300px;
+        @media (max-width: 625px) {
+          height: auto;
           width: 90%;
           left: 0;
           bottom: -50px;
@@ -60,19 +60,19 @@
         }
         h2 {
           font-family: "gotham_narrowmedium";
-          font-size: 40px;
+          font-size: 27px;
         }
         h3 {
           font-family: "gotham_narrowbook";
-          font-size: 28px;
+          font-size: 23px;
         }
         p {
           font-family: "gotham_narrowlight";
-          font-size: 24px;
+          font-size: 19px;
         }
         button {
           border: $color-func-2;
-          font-size: 20px;
+          font-size: 19px;
           background-color: $color-func-2;
           width: 200px;
           padding: 5px 10px;
@@ -186,4 +186,16 @@
     );
     overflow: hidden;
   }
+}
+.reveal {
+  @include reveal;
+}
+.reveal.active {
+  @include revealactive;
+}
+.reveal2 {
+  @include reveal2;
+}
+.reveal2.active {
+  @include reveal2active;
 }
