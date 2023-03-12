@@ -9,6 +9,14 @@ import Salud from "./Salud";
 import Asistencias from "./Asistencias";
 import Polizas from "./Polizas";
 import Beneficios from "./Beneficios";
+import AsistenciaMedica from "./AsistenciaMedica";
+import AsistenciaFuneraria from "./AsistenciaFuneraria";
+import AsistenciaHogar from "./AsistenciaHogar";
+import AsistenciaLegal from "./AsistenciaLegal";
+import AsistenciaVial from "./AsistenciaVial";
+import BeneficiosCine from "./BeneficiosCine";
+import BeneficiosMaternidad from "./BeneficiosMaternidad";
+
 
 const Main = () => {
   return (
@@ -20,8 +28,16 @@ const Main = () => {
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/servicios/salud" element={<Salud/>}/>
         <Route path="/servicios/asistencias" element={<Asistencias/>}/>
+        <Route path="/servicios/asistencias/asistenciamedica" element={<AsistenciaMedica/>} />
+        <Route path="/servicios/asistencias/asistenciafuneraria" element={<AsistenciaFuneraria/>} />
+        <Route path="/servicios/asistencias/asistenciahogar" element={<AsistenciaHogar/>} />
+        <Route path="/servicios/asistencias/asistencialegal" element={<AsistenciaLegal/>} />
+        <Route path="/servicios/asistencias/asistenciavial" element={<AsistenciaVial/>} />
         <Route path="/servicios/polizas" element={<Polizas/>}/>
         <Route path="/servicios/beneficios" element={<Beneficios/>}/>
+        <Route path="/servicios/beneficios/cine" element={<BeneficiosCine/>}/>
+        <Route path="/servicios/beneficios/maternidad" element={<BeneficiosMaternidad/>}/>
+
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route
