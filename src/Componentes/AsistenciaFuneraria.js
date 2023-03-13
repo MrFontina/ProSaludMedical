@@ -7,7 +7,7 @@ function AsistenciaFuneraria() {
      <ComponenteAsistencias
     img={{ backgroundImage: `url(${process.env.PUBLIC_URL
         + "/Images/Asistencias/bannerasistenciafuneraria.jpg"})`}}
-    title="Asistencia funeraria"
+    title="Asistencia Funeraria"
     subtitle="Membresía /  Asistencias / Asistencia funeraria"
     />
     <article className='articleAsistencias'>

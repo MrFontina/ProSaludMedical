@@ -15,6 +15,18 @@ const Asistencias = () => {
                 <CardMembresia img="../../Images/Asistencias/legal.jpg" alt="asistencia legal" title="Asistencia legal" link="/servicios/asistencias/asistencialegal"/>
                 <CardMembresia img="../../Images/Asistencias/vial.jpg" alt="asistencia vial" title="Asistencia vial" link="/servicios/asistencias/asistenciavial"/>
                 <CardMembresia img="../../Images/Asistencias/funeraria.jpg" alt="asistencia funeraria" title="Asistencia funeraria" link="/servicios/asistencias/asistenciafuneraria"/>
+                <CardMembresia
+                img="../../Images/Asistencias/nutricional.webp" 
+                alt="asistencia nutricional"
+                title="Asistencia nutricional"
+                link="/servicios/asistencias/asistencianutricional"
+                />
+                <CardMembresia
+                img="../../Images/Asistencias/psicologica.jpg" 
+                alt="asistencia psicologica"
+                title="Asistencia Psicológica"
+                link="/servicios/asistencias/asistenciapsicologica"
+                />
                 
 
             </div>
