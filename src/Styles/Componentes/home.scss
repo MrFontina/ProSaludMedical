@@ -177,14 +177,63 @@
     }
   }
   .div-afiliados {
-    height: 600px;
+    padding-top: 20px;
     background: rgb(42, 102, 174);
     background: linear-gradient(
       156deg,
       rgba(42, 102, 174, 1) 0%,
       rgba(58, 150, 207, 1) 100%
     );
-    overflow: hidden;
+  }
+  .div-app {
+    width: 100%;
+    background-image: url("../../../public/Images/app-bg.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 60px;
+    @media (max-width: 680px) {
+      flex-direction: column-reverse;
+    }
+    .div-mockup {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      @media (max-width: 680px) {
+        width: 100%;
+        @include flex;
+      }
+    }
+    .mockup {
+      filter: drop-shadow(-7px 8px 18px #000);
+      height: 500px;
+      -webkit-filter: drop-shadow(-7px 8px 18px #000);
+    }
+    .app-info {
+      width: 60%;
+      @media (max-width: 680px) {
+        @include flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+      h2 {
+        font-family: "gotham_narrowblack";
+        font-size: 2.5rem;
+      }
+      p {
+        font-family: "gotham_narrowbook";
+        font-size: 1.6rem;
+      }
+      .app-img {
+        display: flex;
+        gap: 20px;
+        img {
+          width: 150px;
+        }
+      }
+    }
   }
 }
 .reveal {

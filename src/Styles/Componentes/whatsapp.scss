@@ -2,11 +2,12 @@
   @include flex;
   justify-content: center;
   align-items: center;
+  padding-left: 1px;
   position: fixed;
   height: 45px;
   width: 45px;
-  font-size: 2.1rem;
-  bottom: 150px;
+  font-size: 1.9rem;
+  bottom: 110px;
   right: 30px;
   text-align: center;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);

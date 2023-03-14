@@ -63,6 +63,25 @@ const Home = () => {
       <div className="div-afiliados">
         <ReviewList />
       </div>
+      <div className="div-app">
+        <div class="div-mockup">
+          <img
+            class="mockup reveal"
+            src="../../Images/appmockup.png"
+            alt="app"
+          />
+        </div>
+        <div class="app-info">
+          <h2>PRO SALUD MEDICAL</h2>
+          <p>
+            Descarga nuestra aplicacion y descubre todo lo que puedes hacer.
+          </p>
+          <div className="app-img">
+            <img src="../../Images/googleapp.png" alt="googleapp" />
+            <img src="../../Images/appleapp.png" alt="appleeapp" />
+          </div>
+        </div>
+      </div>
       <Whatsapp />
     </div>
   );

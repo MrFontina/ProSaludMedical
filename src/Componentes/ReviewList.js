@@ -1,5 +1,6 @@
 import React from "react";
-import ReviewItem from "./ReviewItem";
+
+import Slider from "./Slider";
 
 function ReviewList() {
   return (
@@ -9,7 +10,7 @@ function ReviewList() {
           <h2>Conoce la opinion de nuestros afiliados</h2>
           <div className="underline"></div>
         </div>
-        <ReviewItem />
+        <Slider />
       </section>
     </div>
   );
