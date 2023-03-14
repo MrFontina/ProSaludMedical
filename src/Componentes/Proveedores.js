@@ -18,7 +18,7 @@ function Proveedores() {
         </h3> 
           </div>
         <div className='div-form-proveedores-bottom'>
-           <Form>
+           <Form className='formForm'>
           
           <Form.Group className="mb-3">
             <Form.Label>Nombre completo</Form.Label>
@@ -36,7 +36,7 @@ function Proveedores() {
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Servicios que ofrece:</Form.Label>
-            <Form.Control as="textarea" aria-label="With textarea" placeholder='Escribe un mensaje.'/>
+            <Form.Control as="textarea" aria-label="With textarea" placeholder='Escribe un mensaje.' rows="8"/>
 
 
           </Form.Group>

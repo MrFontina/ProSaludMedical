@@ -6,22 +6,88 @@
     .div-form-proveedores {
         width: 1145px;
         height: 900px;
+        @media (max-width: 1200px){    
+            width: 900px;
+        }
+        @media (max-width: 992px){    
+            width: 700px;
+        }
+        @media (max-width: 768px){    
+            width: 460px;
+        }
+        @media (max-width: 480px){    
+            width: 350px;
+        }
+        @media (max-width: 370px){    
+            width: 280px;
+        }
         
 
         .div-form-proveedores-top {
-            width: 1145px;
+            
             height: 82px;
             background: #00A696;
-            padding-left: 116px;
-            padding-top: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media (max-width: 1200px){
+                
+            }
+            @media (max-width: 992px){
+
+            }
+            @media (max-width: 768px){
+
+            }
+            @media (max-width: 480px){
+
+            }
+            @media (max-width: 320px){
+
+            }
+            @media (max-width: 1200px){
+
+            }
+            
         }
 
         .div-form-proveedores-bottom {
             background: #D1D1D1;
-            height: 650px;
+            height: 750px;
             padding-left: 116px;
             padding-right: 354px;
             padding-top: 39px;
+            @media (max-width: 1200px){
+                .formForm{
+                    width: 600px;
+                }
+            }
+            @media (max-width: 992px){
+                .formForm{
+                    width: 460px;
+                }
+            }
+            @media (max-width: 768px){
+                padding-left: 80px;
+            padding-right: 120px;
+                .formForm{
+                    width: 300px;
+                }
+            }
+            @media (max-width: 480px){
+                padding-left: 28px;
+            }
+            @media (max-width: 370px){
+                padding-left: 10px;
+                padding: 10px;
+                .formForm{
+                    width: 245px;
+                }
+
+            }
+            @media (max-width: 1200px){
+
+            }
             
         }
     }
