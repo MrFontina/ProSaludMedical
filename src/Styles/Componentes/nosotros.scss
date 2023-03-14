@@ -19,6 +19,7 @@
     }
 
     .nosotros-card {
+      animation: fadein 0.5s ease forwards;
       display: flex;
       margin-bottom: 30px;
       align-items: center;
@@ -29,6 +30,7 @@
       );
       border-radius: 0px 20px 20px 0px;
       width: 563px;
+      -webkit-animation: fadein 0.5s ease forwards;
       @media (max-width: 680px) {
         width: 500px;
       }
@@ -52,6 +54,14 @@
           width: 80%;
         }
       }
+    }
+    .card2 {
+      opacity: 0;
+      animation-delay: 0.2s;
+    }
+    .card3 {
+      opacity: 0;
+      animation-delay: 0.4s;
     }
 
     .card-content {
@@ -118,16 +128,21 @@
     object-position: 0px;
   }
 }
-
-.reveal {
-  @include reveal;
-}
-.reveal.active {
-  @include revealactive;
-}
-.reveal2 {
-  @include reveal2;
-}
-.reveal2.active {
-  @include reveal2active;
+@keyframes fadein {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+    -webkit-transform: translateX(-150px);
+    -moz-transform: translateX(-150px);
+    -ms-transform: translateX(-150px);
+    -o-transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
 }
