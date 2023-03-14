@@ -1,6 +1,20 @@
 .titleMembresia {
     margin-left: 121px;
     margin-top: 44px;
+    
+    @media (max-width: 992px){
+        margin-left: 95px;
+    }
+    @media (max-width: 768px){
+        margin-left: 65px;
+    }
+    @media (max-width: 480px){
+        margin-left: 50px;
+    }
+    @media (max-width: 320px){
+        margin-left: 25px;
+    }
+
     h4 {
         font-style: normal;
         font-weight: 400;

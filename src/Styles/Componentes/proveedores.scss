@@ -28,26 +28,17 @@
             height: 82px;
             background: #00A696;
             display: flex;
-            justify-content: center;
+            padding-left: 116px;
             align-items: center;
-            @media (max-width: 1200px){
-                
-            }
-            @media (max-width: 992px){
-
-            }
             @media (max-width: 768px){
-
-            }
-            @media (max-width: 480px){
-
-            }
-            @media (max-width: 320px){
-
-            }
-            @media (max-width: 1200px){
-
-            }
+                padding-left: 80px;}
+                @media (max-width: 480px){
+                    padding-left: 28px;
+                }
+                @media (max-width: 370px){
+                    padding-left: 10px;
+                }
+           
             
         }
 
