@@ -20,7 +20,7 @@ function AsistenciaFuneraria() {
       </article>
       <div className="funerarias">
         <div className="funerariaLeft">
-          <h4>Cremación</h4>
+          <h4 className='asistencia-subtitle'>Cremación</h4>
           <ul>
             <li>Recolección del cuerpo</li>
             <li>Arreglo estético del cuerpo</li>
@@ -32,7 +32,7 @@ function AsistenciaFuneraria() {
           </ul>
         </div>
         <div className="funerariaRight">
-          <h4>Inhumación</h4>
+          <h4 className='asistencia-subtitle'>Inhumación</h4>
           <ul>
             <li>Recolección del cuerpo</li>
             <li>Servicio de embalsamado</li>
