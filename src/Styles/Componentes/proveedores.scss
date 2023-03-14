@@ -1,0 +1,28 @@
+.div-proveedores {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    .div-form-proveedores {
+        width: 1145px;
+        height: 900px;
+        
+
+        .div-form-proveedores-top {
+            width: 1145px;
+            height: 82px;
+            background: #00A696;
+            padding-left: 116px;
+            padding-top: 22px;
+        }
+
+        .div-form-proveedores-bottom {
+            background: #D1D1D1;
+            height: 650px;
+            padding-left: 116px;
+            padding-right: 354px;
+            padding-top: 39px;
+            
+        }
+    }
+}
