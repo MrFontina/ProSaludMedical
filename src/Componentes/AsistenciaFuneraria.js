@@ -1,24 +1,27 @@
-import React from 'react'
-import ComponenteAsistencias from './ComponenteAsistencias'
+import React from "react";
+import ComponenteAsistencias from "./ComponenteAsistencias";
 
 function AsistenciaFuneraria() {
   return (
     <>
-     <ComponenteAsistencias
-    img={{ backgroundImage: `url(${process.env.PUBLIC_URL
-        + "/Images/Asistencias/bannerasistenciafuneraria.jpg"})`}}
-    title="Asistencia Funeraria"
-    subtitle="Membresía /  Asistencias / Asistencia funeraria"
-    />
-    <article className='articleAsistencias'>
-    En el desafortunado caso de que el titular de fallezca, estaremos
-cubriendo los beneficios de su membresía.
-Que cuenta con:  
-    </article>
-    <div className='funerarias'>
-        <div className='funerariaLeft'>
-        <h4>Cremación</h4>
-        <ul>
+      <ComponenteAsistencias
+        img={{
+          backgroundImage: `url(${
+            process.env.PUBLIC_URL +
+            "/Images/Asistencias/bannerasistenciafuneraria.jpg"
+          })`,
+        }}
+        title="Asistencia Funeraria"
+        subtitle="Membresía /  Asistencias / Asistencia funeraria"
+      />
+      <article className="articleAsistencias">
+        En el desafortunado caso de que el titular de fallezca, estaremos
+        cubriendo los beneficios de su membresía. Que cuenta con:
+      </article>
+      <div className="funerarias">
+        <div className="funerariaLeft">
+          <h4>Cremación</h4>
+          <ul>
             <li>Recolección del cuerpo</li>
             <li>Arreglo estético del cuerpo</li>
             <li>Ataúd para velación</li>
@@ -26,11 +29,11 @@ Que cuenta con:
             <li>Servicio de cremación</li>
             <li>Urna</li>
             <li>Gestión de trámites</li>
-        </ul>
+          </ul>
         </div>
-        <div className='funerariaRight'>
-        <h4>Inhumación</h4>
-        <ul>
+        <div className="funerariaRight">
+          <h4>Inhumación</h4>
+          <ul>
             <li>Recolección del cuerpo</li>
             <li>Servicio de embalsamado</li>
             <li>Arreglo estético del cuerpo</li>
@@ -38,13 +41,11 @@ Que cuenta con:
             <li>Ataúd metálico</li>
             <li>Gestión de trámites</li>
             <li>Traslado en carroza para inhumación</li>
-        </ul>
+          </ul>
         </div>
-    </div>
-    
+      </div>
     </>
-   
-    )
+  );
 }
 
-export default AsistenciaFuneraria
+export default AsistenciaFuneraria;

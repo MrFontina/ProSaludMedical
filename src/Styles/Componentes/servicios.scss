@@ -5,7 +5,7 @@
     div {
       position: relative;
       background-image: url(../../../public/Images/medicobg.png);
-      object-fit: contain;
+      object-fit: cover;
       height: 650px;
       h1 {
         position: absolute;
@@ -14,7 +14,9 @@
         padding: 20px 40px;
         border-radius: 20px;
         color: $color-func-2;
-        background-color: rgba($color: $color-claro, $alpha: 0.7);
+        background: rgba(242, 242, 242, 0.3);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
@@ -49,38 +51,64 @@
     }
     .div-membresia {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin: 70px auto;
+      gap: 40px;
+      width: 90%;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+      }
       .div-contrato {
         background-color: $color-1;
-        padding-top: 20px;
+        padding-top: 15px;
         border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         color: $color-claro;
-        width: 400px;
+        width: Min(100%, 400px);
         font-family: "gotham_narrowbook";
+        @media (max-width: 768px) {
+          width: Min(90%, 500px);
+        }
         h3 {
           text-align: center;
           padding: 0px 50px;
           font-size: 1.8rem;
+          @media (max-width: 850px) {
+            font-size: 1.6rem;
+          }
+
           .h3-span-1 {
             font-size: 3.5rem;
+            @media (max-width: 850px) {
+              font-size: 3rem;
+            }
           }
           .h3-span-2 {
             font-size: 1.85rem;
             font-family: "gotham_narrowblack";
             letter-spacing: 5px;
+            @media (max-width: 850px) {
+              font-size: 1.6rem;
+            }
           }
         }
         ul {
-          padding: 50px 30px 30px;
+          padding: 40px 30px 10px;
           list-style: none;
           font-size: 0.9rem;
           max-width: 80%;
           margin: auto;
+          @include flex;
+          flex-direction: column;
+          @media (max-width: 800px) {
+            align-items: flex-start;
+            padding: 20px;
+          }
           li {
             margin-bottom: 20px;
             display: flex;
@@ -89,6 +117,7 @@
             gap: 10px;
             div {
               font-size: 2rem;
+              padding-bottom: 25px;
             }
           }
         }
@@ -97,11 +126,12 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+        width: Min(100%, 500px);
         .servicelink {
           text-decoration: none;
           article {
             display: flex;
-            width: 500px;
+            width: Min(100%, 500px);
             height: 150px;
             border-radius: 20px;
             -webkit-border-radius: 20px;
@@ -117,12 +147,16 @@
             -moz-transition: all 0.5s ease;
             -ms-transition: all 0.5s ease;
             -o-transition: all 0.5s ease;
+
             &:hover {
               transform: translateX(-20px);
               -webkit-transform: translateX(-20px);
               -moz-transform: translateX(-20px);
               -ms-transform: translateX(-20px);
               -o-transform: translateX(-20px);
+            }
+            @media (max-width: 768px) {
+              width: 100%;
             }
             div {
               display: flex;

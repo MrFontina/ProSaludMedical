@@ -18,8 +18,7 @@ import AsistenciaNutricional from "./AsistenciaNutricional";
 import AsistenciaPsicologica from "./AsistenciaPsicologica";
 import BeneficiosCine from "./BeneficiosCine";
 import BeneficiosMaternidad from "./BeneficiosMaternidad";
-
-
+import Whatsapp from "./Whatsapp";
 
 const Main = () => {
   return (
@@ -29,19 +28,43 @@ const Main = () => {
         <Route path="/:Home" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
-        <Route path="/servicios/salud" element={<Salud/>}/>
-        <Route path="/servicios/asistencias" element={<Asistencias/>}/>
-        <Route path="/servicios/asistencias/asistenciamedica" element={<AsistenciaMedica/>} />
-        <Route path="/servicios/asistencias/asistenciafuneraria" element={<AsistenciaFuneraria/>} />
-        <Route path="/servicios/asistencias/asistenciahogar" element={<AsistenciaHogar/>} />
-        <Route path="/servicios/asistencias/asistencialegal" element={<AsistenciaLegal/>} />
-        <Route path="/servicios/asistencias/asistenciavial" element={<AsistenciaVial/>} />
-        <Route path="/servicios/asistencias/asistencianutricional" element={<AsistenciaNutricional/>} />
-        <Route path="/servicios/asistencias/asistenciapsicologica" element={<AsistenciaPsicologica/>} />
-        <Route path="/servicios/polizas" element={<Polizas/>}/>
-        <Route path="/servicios/beneficios" element={<Beneficios/>}/>
-        <Route path="/servicios/beneficios/cine" element={<BeneficiosCine/>}/>
-        <Route path="/servicios/beneficios/maternidad" element={<BeneficiosMaternidad/>}/>
+        <Route path="/servicios/salud" element={<Salud />} />
+        <Route path="/servicios/asistencias" element={<Asistencias />} />
+        <Route
+          path="/servicios/asistencias/asistenciamedica"
+          element={<AsistenciaMedica />}
+        />
+        <Route
+          path="/servicios/asistencias/asistenciafuneraria"
+          element={<AsistenciaFuneraria />}
+        />
+        <Route
+          path="/servicios/asistencias/asistenciahogar"
+          element={<AsistenciaHogar />}
+        />
+        <Route
+          path="/servicios/asistencias/asistencialegal"
+          element={<AsistenciaLegal />}
+        />
+        <Route
+          path="/servicios/asistencias/asistenciavial"
+          element={<AsistenciaVial />}
+        />
+        <Route
+          path="/servicios/asistencias/asistencianutricional"
+          element={<AsistenciaNutricional />}
+        />
+        <Route
+          path="/servicios/asistencias/asistenciapsicologica"
+          element={<AsistenciaPsicologica />}
+        />
+        <Route path="/servicios/polizas" element={<Polizas />} />
+        <Route path="/servicios/beneficios" element={<Beneficios />} />
+        <Route path="/servicios/beneficios/cine" element={<BeneficiosCine />} />
+        <Route
+          path="/servicios/beneficios/maternidad"
+          element={<BeneficiosMaternidad />}
+        />
 
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/contacto" element={<Contacto />} />
@@ -50,6 +73,7 @@ const Main = () => {
           element={<h1 className="h-screen">Oops, something went wrong</h1>}
         />
       </Routes>
+      <Whatsapp />
     </main>
   );
 };

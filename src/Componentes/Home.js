@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewList from "./ReviewList";
-import Whatsapp from "./Whatsapp";
+
 import { reveal } from "../Utility/animation.js";
 
 const Home = () => {
@@ -82,7 +82,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Whatsapp />
     </div>
   );
 };
