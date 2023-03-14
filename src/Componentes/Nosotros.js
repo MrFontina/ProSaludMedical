@@ -1,6 +1,9 @@
 import React from "react";
+import { reveal } from "../Utility/animation";
+
 
 const Nosotros = () => {
+  reveal();
   return (
     <div className="contenedor-nosotros">
       <div className="nosotros-left">

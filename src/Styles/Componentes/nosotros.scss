@@ -103,6 +103,9 @@
 
   .nosotros-right {
     width: 50%;
+    @media(max-width: 1227px){
+      width: 100%;;
+    }
     @media(max-width: 430px){
       display: none;
     }
@@ -121,3 +124,16 @@
     }
   }
 
+  .reveal {
+    @include reveal;
+  }
+  .reveal.active {
+    @include revealactive;
+  }
+  .reveal2 {
+    @include reveal2;
+  }
+  .reveal2.active {
+    @include reveal2active;
+  }
+  

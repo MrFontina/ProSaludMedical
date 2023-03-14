@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewList from "./ReviewList";
-
+import { Link } from "react-router-dom";
 import { reveal } from "../Utility/animation.js";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             <h3>El programa de asistencias mas completo de Mexico</h3>
             <p>¿Quieres brindarle a tus empleados los mejores beneficios?</p>
             <button class="banner-button">
-              <a href=".">Conocer servicios</a>
+              <Link to="/servicios">Conocer servicios</Link>
             </button>
           </div>
         </div>
