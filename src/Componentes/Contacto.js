@@ -46,7 +46,12 @@ const Contacto = () => {
               <span class="bar2"></span>
             </button>
           </div>
-          <form id="form-container">
+          <form
+            id="form-container"
+            action="https://formsubmit.co/renzolacovara@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
             <div class="group">
               <input className="input-btn" type="text" required />
               <span class="highlight"></span>
@@ -107,7 +112,7 @@ const Contacto = () => {
               </div>
             </div>
             <div>
-              <button class="submit-btn" type="submit">
+              <button class="submit-btn" type="submit" value="Send">
                 Enviar
               </button>
             </div>
