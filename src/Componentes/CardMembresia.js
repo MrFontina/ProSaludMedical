@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function CardMembresia(props)  {
@@ -10,7 +11,7 @@ function CardMembresia(props)  {
             
             <div className="cardBottom">
                 <h2>{props.title}</h2>
-                <button>Ver</button>
+                <Link to={props.link}><button>Ver</button></Link>
             </div>
             
         </div>
