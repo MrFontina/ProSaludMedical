@@ -18,7 +18,7 @@ function AsistenciaHogar() {
                 </p>
                 
 
-                <p>
+                <p className='asistencia-subtitle'>
                 Servicio de Plomería    
                 </p>
                 <p>
@@ -26,7 +26,7 @@ function AsistenciaHogar() {
                 reparación y puedan causar daño al inmueble (casa o departamento) en donde resida el titular.    
                 </p>
                 
-                <p>
+                <p className='asistencia-subtitle'>
                 Servicio de Cerrajería    
                 </p>
                 <p>
@@ -34,7 +34,7 @@ function AsistenciaHogar() {
                 o accidente en las puertas del inmueble (casa o departamento) en donde resida el titular.    
                 </p>
                 
-                <p>
+                <p className='asistencia-subtitle'>
                 Servicio de Herrería    
                 </p>
                 <p>
@@ -42,7 +42,7 @@ function AsistenciaHogar() {
                 otras piezas utilizadas en la construcción, según especificaciones de planos, dibujos o diseños.   
                 </p>
                 
-                <p>
+                <p className='asistencia-subtitle'>
                 Servicio eléctrico    
                 </p>
                 

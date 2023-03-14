@@ -14,7 +14,7 @@ const Polizas = () =>{
             <p>
             Esta póliza tiene un costo de $50 pesos extra al adquirir la membresia.
             </p>
-            <p>
+            <p className='asistencia-subtitle'>
             Solo para titular:
             </p>
             <ul>

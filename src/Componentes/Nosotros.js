@@ -1,10 +1,12 @@
 import React from "react";
+import { reveal } from "../Utility/animation.js";
 
 const Nosotros = () => {
+  reveal();
   return (
     <div className="contenedor-nosotros">
       <div className="nosotros-left">
-        <div className="nosotros-card">
+        <div className="nosotros-card reveal">
           <div className="card-left">
             <img src="../../Images/flecha.png" alt=""></img>
           </div>
@@ -18,7 +20,7 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="nosotros-card">
+        <div className="nosotros-card reveal">
           <div className="card-left">
             <img src="../../Images/ojo.png" alt=""></img>
           </div>
@@ -32,7 +34,7 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="nosotros-card">
+        <div className="nosotros-card reveal">
           <div className="card-left">
             <img src="../../Images/valores.png" alt=""></img>
           </div>
