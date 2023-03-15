@@ -39,8 +39,9 @@ const Slider = () => (
     items={items}
     responsive={responsive}
     controlsStrategy="alternate"
-    animationType="fadein"
+    animationType="fadeout"
     animationDuration={800}
+    touchTracking
     infinite
     disableDotsControls
   />

@@ -19,7 +19,7 @@ const reviews = [
     name: "Diego Guerrero",
     job: "Medico Radiologo",
     image: "../../Images/review3.jpg",
-    text: "Debo decir que estoy muy impresionado con el nivel de profesionalismo en Pro Salud Medical. Todo el personal está muy bien informado en todas las áreas de gestión, operaciones y funciones. ¡Es una gran empresa para trabajar!",
+    text: "Debo decir que estoy muy impresionado con el nivel de Pro Salud Medical. Todo el personal está muy bien informado en todas las áreas de gestión, operaciones y funciones. ¡Es una gran empresa para trabajar!",
   },
   {
     id: 4,
