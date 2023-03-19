@@ -8,6 +8,9 @@
   width: 90%;
   margin: 20px auto;
   padding: 30px 60px 40px 30px;
+  @media screen and (max-width: 500px) {
+    padding: 20px 30px 20px 20px;
+  }
   .ul-princ {
     li {
       font-size: 1.2rem;
