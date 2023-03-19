@@ -2,13 +2,18 @@ import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaTiktok, FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
       <div className="div-footer">
         <div className="footLeft">
-          <a href=".">Preguntas Frecuentes</a>
-          <a href=".">Aviso de Privacidad</a>
+          <Link to="/faq" className="navLink">
+            Preguntas Frecuentes
+          </Link>
+          <Link to="/avisodeprivacidad" className="navLink">
+            Aviso de Privacidad
+          </Link>
         </div>
         <div className="footRight">
           <p>Siguenos en:</p>

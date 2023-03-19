@@ -4,7 +4,7 @@ const Nosotros = () => {
   return (
     <div className="contenedor-nosotros">
       <div className="nosotros-left">
-        <div className="nosotros-card">
+        <div className="nosotros-card" style={{ "--order": "1" }}>
           <div className="card-left">
             <img src="../../Images/flecha.png" alt=""></img>
           </div>
@@ -18,7 +18,7 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="nosotros-card card2">
+        <div className="nosotros-card" style={{ "--order": "2" }}>
           <div className="card-left">
             <img src="../../Images/ojo.png" alt=""></img>
           </div>
@@ -32,7 +32,12 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="nosotros-card card3">
+        <div
+          className="nosotros-card"
+          style={{
+            "--order": "3",
+          }}
+        >
           <div className="card-left">
             <img src="../../Images/valores.png" alt=""></img>
           </div>

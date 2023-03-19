@@ -18,6 +18,9 @@ import AsistenciaNutricional from "./AsistenciaNutricional";
 import AsistenciaPsicologica from "./AsistenciaPsicologica";
 import BeneficiosCine from "./BeneficiosCine";
 import BeneficiosMaternidad from "./BeneficiosMaternidad";
+import Faq from "./Faq";
+import AvisoPriv from "./AvisoPriv";
+import Goup from "./Goup";
 import Whatsapp from "./Whatsapp";
 
 const Main = () => {
@@ -68,12 +71,15 @@ const Main = () => {
 
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/avisodeprivacidad" element={<AvisoPriv />} />
         <Route
           path="*"
           element={<h1 className="h-screen">Oops, something went wrong</h1>}
         />
       </Routes>
       <Whatsapp />
+      <Goup />
     </main>
   );
 };

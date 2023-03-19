@@ -34,7 +34,12 @@ const Home = () => {
       <div class="div-proveedores">
         <h2>Nuestra Red de Proveedores</h2>
         <section>
-          <article class="reveal">
+          <article
+            class="reveal"
+            style={{
+              "--order": "3",
+            }}
+          >
             <img alt="" src="../../Images/medicos_grupo.png" />
             <p>Mas de 5000 proveedores de salud en todo el pais</p>
           </article>

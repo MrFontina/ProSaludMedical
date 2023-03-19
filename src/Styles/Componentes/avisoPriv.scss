@@ -1,0 +1,33 @@
+.priv-container {
+  background-color: $color-3;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 30px 60px 40px 30px;
+  .ul-princ {
+    li {
+      font-size: 1.2rem;
+    }
+    p {
+      .ul-sec {
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  .list {
+    list-style-type: lower-alpha;
+  }
+}
+.enlace-priv {
+  text-decoration: none;
+  color: $color-2;
+  &:hover {
+    color: $color-1;
+  }
+}
