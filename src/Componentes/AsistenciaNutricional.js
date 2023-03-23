@@ -6,7 +6,7 @@ function AsistenciaNutricional() {
     <>
     <ComponenteAsistencias
      img={{ backgroundImage: `url(${process.env.PUBLIC_URL
-        + "/Images/Asistencias/bannernutricional.webp"})`}}
+        + "/Images/Asistencias/bannernutricional2.jpg"})`}}
     title="Asistencia Nutricional"
     subtitle="Membresía /  Asistencias / Asistencia nutricional"    
     />

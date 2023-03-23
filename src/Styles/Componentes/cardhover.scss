@@ -8,6 +8,7 @@
     border-radius: 20px;
     color: white;
     cursor: pointer;
+    
 
     @media (max-width: 480px) {
         width: 280px;
@@ -98,6 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     @media (max-width: 480px) {
         width: 280px;
@@ -114,7 +116,7 @@
         font-family: "gotham_narrowlight";
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 22px;
         line-height: 36px;
         text-align: center;       
         @media (max-width: 480px) {
