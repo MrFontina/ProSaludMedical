@@ -45,7 +45,7 @@ function Proveedores() {
             <Form.Check type="checkbox" label="Si" />
             <Form.Check type="checkbox" label="No" />
           </Form.Group>
-          <Button variant="success" type="submit">
+          <Button variant="success" type="submit" id="boton-proveedor">
             Enviar
           </Button>
         </Form>

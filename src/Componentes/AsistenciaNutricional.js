@@ -4,6 +4,7 @@ import ComponenteAsistencias from "./ComponenteAsistencias";
 function AsistenciaNutricional() {
   return (
     <>
+<<<<<<< HEAD
       <ComponenteAsistencias
         img={{
           backgroundImage: `url(${
@@ -16,6 +17,15 @@ function AsistenciaNutricional() {
         subtitle="Membresía /  Asistencias / Asistencia nutricional"
       />
       <article className="articleAsistencias">
+=======
+    <ComponenteAsistencias
+     img={{ backgroundImage: `url(${process.env.PUBLIC_URL
+        + "/Images/Asistencias/bannernutricional2.jpg"})`}}
+    title="Asistencia Nutricional"
+    subtitle="Membresía /  Asistencias / Asistencia nutricional"    
+    />
+    <article className='articleAsistencias'>
+>>>>>>> 85d926e0fa4ddde6e770bfea680a765ca07c5ecc
         <p>
           En caso de que el usuario lo requiera, un nutriólogo le proporcionará
           de manera limitada la asistencia sobre:

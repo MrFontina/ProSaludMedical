@@ -36,7 +36,7 @@ const Servicios = () => {
               contratar nuestra
               <span className="h3-span-2">
                 <br />
-                membresia?
+                membresía?
               </span>
             </h3>
             <ul>
