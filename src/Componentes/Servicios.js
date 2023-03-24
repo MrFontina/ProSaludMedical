@@ -8,16 +8,16 @@ const Servicios = () => {
     <div className="div-servicios">
       <div className="div-banner">
         <div>
-          <h1 className="reveal2">Atencion 24/7</h1>
+          <h1 className="reveal2">Atención 24/7</h1>
         </div>
       </div>
       <div className="div-pres-servicios">
         <div className="pres">
-          <h2>Membresia Pro Salud Medical</h2>
+          <h2>Membresía Pro Salud Medical</h2>
           <p>
             En Pro Salud Medical te ofrecemos una solucion integral al cuidado
             de tus empleados.
-            <br />A traves e nuestra <span>membresia</span>, tus colaboradores
+            <br />A traves e nuestra <span>membresía</span>, tus colaboradores
             contaran con acceso a nuestra amplia red de proveedores que brindan
             servicios de alta calidad.
             <br />
@@ -111,7 +111,7 @@ const Servicios = () => {
                 {" "}
                 <div>
                   <img src="../../Images/poliza.png" alt="polizas" />
-                  <h4>Poliza de Accidentes</h4>
+                  <h4>Póliza de Accidentes</h4>
                 </div>
                 <div className="arrowico">
                   <BsArrowRightCircleFill />{" "}

@@ -1,144 +1,141 @@
 .div-asistencias {
-    .banner-asistencias {
-        height: 328px;
-        background-size: cover;
-        position: relative;
-        background-position: center;
-        @media (max-width: 992px){
-            height: 260px;
-        }
-        @media (max-width: 768px){
-            height: 200px;
-        }
-        @media (max-width: 480px){
-            height: 170px;
-        }
-
+  .banner-asistencias {
+    height: 328px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    @media (max-width: 992px) {
+      height: 260px;
     }
-    .banner-title {
-        position: absolute;
-        width: 512px;
-        height: 144px;
-        left: 0px;
-        top: 122px;
-        background: rgba(242, 242, 242, 0.5);
-        backdrop-filter: blur(7.5px);
-        border-radius: 0px 20px 20px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        @media (max-width: 992px){
-            top: 60px;
-        }
-        @media (max-width: 768px){
-            top: 45px;
-            height: 100px;
-            width: 400px;
-        }
-        @media (max-width: 480px){
-            width: 280px;
-            top: 35px;
-        }
-        h1 {
-            font-size: 40px;
-            text-align: center;
-            @media (max-width: 768px){
-                font-size: 30px;
-            }
-            @media (max-width: 480px){
-                font-size: 24px;
-            }
-        }
-        h2 {
-            font-size: 16px;
-            text-align: center;
-            @media (max-width: 768px){
-                font-size: 14px;
-            }
-            @media (max-width: 480px){
-                font-size: 12px;
-            }
-
-        }
+    @media (max-width: 768px) {
+      height: 200px;
     }
-    article{
-        font-family: "gotham_narrowbook";
-        font-size: 23px;
-        margin-left: 150px;
-        margin-right: 150px;
-        margin-top: 80px;
-        margin-bottom: 50px;
-        @media (max-width: 992px){
-            margin-left: 100px;
-            margin-right: 100px;
-        }
-        @media (max-width: 768px){
-            margin-top: 50px;
-            margin-left: 50px;
-            margin-right: 50px;
-            font-size: 20px;
-        }
-        @media (max-width: 480px){
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 18px;
-        }
-        
-        
+    @media (max-width: 480px) {
+      height: 170px;
     }
-}
-.articleAsistencias{
+  }
+  .banner-title {
+    position: absolute;
+    width: 512px;
+    height: 144px;
+    left: 0px;
+    top: 122px;
+    background: rgba(242, 242, 242, 0.5);
+    backdrop-filter: blur(7.5px);
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 992px) {
+      top: 60px;
+    }
+    @media (max-width: 768px) {
+      top: 45px;
+      height: 100px;
+      width: 400px;
+    }
+    @media (max-width: 480px) {
+      width: 200px;
+      height: 70px;
+      top: 70px;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+      @media (max-width: 480px) {
+        font-size: 18px;
+      }
+    }
+    h2 {
+      font-size: 16px;
+      text-align: center;
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+      @media (max-width: 480px) {
+        font-size: 8px;
+      }
+    }
+  }
+  article {
     font-family: "gotham_narrowbook";
-    font-size: 25px;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        @media (max-width: 992px){
-            margin-left: 100px;
-            margin-right: 100px;
-        }
-        @media (max-width: 768px){
-            margin-top: 50px;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 20px;
-            font-size: 20px;
-        }
-        @media (max-width: 480px){
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 18px;
-        }
+    font-size: 23px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    @media (max-width: 992px) {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    @media (max-width: 768px) {
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 20px;
+    }
+    @media (max-width: 480px) {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  }
+}
+.articleAsistencias {
+  font-family: "gotham_narrowbook";
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  @media (max-width: 992px) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  @media (max-width: 480px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
 }
 
-.funerarias{
-    font-family: "gotham_narrowbook";
-        font-size: 25px;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 100px;
-        
-        display: flex;
-        justify-content: space-between;
-        @media (max-width: 992px){
-            margin-left: 100px;
-            margin-right: 100px;
-        }
-        @media (max-width: 768px){
-            margin-top: 50px;
-            
-            margin-right: 50px;
-            font-size: 20px;
-            flex-direction: column;
-        }
-        @media (max-width: 480px){
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 18px;
-        }
+.funerarias {
+  font-family: "gotham_narrowbook";
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 992px) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 50px;
+
+    margin-right: 50px;
+    font-size: 20px;
+    flex-direction: column;
+  }
+  @media (max-width: 480px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
 }
 
-.asistencia-subtitle{
-    color: $color-1;
+.asistencia-subtitle {
+  color: $color-1;
 }

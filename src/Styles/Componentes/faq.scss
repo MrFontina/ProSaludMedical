@@ -107,10 +107,12 @@
     -ms-transition: all 1s;
     -o-transition: all 1s;
     text-align: center;
+    padding: 0px 20px;
     @include flex;
     flex-direction: column;
     justify-content: space-between;
     h2 {
+      font-size: 1.6rem;
       margin-top: 50px;
     }
     .arrow-ico {

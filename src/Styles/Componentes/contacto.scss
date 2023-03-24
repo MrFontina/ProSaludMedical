@@ -9,6 +9,11 @@
   width: Min(100%, 400px);
   border: none;
   border-bottom: 1px solid #757575;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .input-btn:focus {
   outline: none;
@@ -16,7 +21,7 @@
 
 .label-btn {
   color: #999;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
