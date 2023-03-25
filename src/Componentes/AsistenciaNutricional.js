@@ -13,6 +13,7 @@ function AsistenciaNutricional() {
         }}
         title="Asistencia Nutricional"
         subtitle="Membresía /  Asistencias / Asistencia nutricional"
+        id='back-nutri'
       />
       <article className="articleAsistencias">
         <p>
