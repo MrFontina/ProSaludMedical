@@ -1,64 +1,87 @@
-import React from 'react'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form';
+import { React } from "react";
 
 function Proveedores() {
   return (
     <>
       <div className="titleMembresia">
         <h4>Membresía / Proveedores</h4>
-        <h2>Contacto</h2>
+        <h2>Proveedores</h2>
       </div>
 
-      <div className='div-proveedores' >
-        <div className='div-form-proveedores'>
-          <div className='div-form-proveedores-top'>
-           <h3>
-          Hazte proveedor
-        </h3> 
-          </div>
-        <div className='div-form-proveedores-bottom'>
-           <Form className='formForm'>
-          
-          <Form.Group className="mb-3">
-            <Form.Label>Nombre completo</Form.Label>
-            <Form.Control type="text" placeholder='Escriba su nombre'></Form.Control>
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Correo eléctronico</Form.Label>
-            <Form.Control type="email" placeholder="Escriba su correo eléctronico" />
-          </Form.Group>
-
-          <Form.Group className="mb-3">
-            <Form.Label>Teléfono</Form.Label>
-            <Form.Control type="text" placeholder="Teléfono" />
-          </Form.Group>
-          <Form.Group className="mb-3">
-            <Form.Label>Servicios que ofrece:</Form.Label>
-            <Form.Control as="textarea" aria-label="With textarea" placeholder='Escribe un mensaje.' rows="8"/>
-
-
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicCheckbox">
-            <Form.Label>¿Quieres que te contactemos por Whatsapp?</Form.Label>
-            <Form.Check type="checkbox" label="Si" />
-            <Form.Check type="checkbox" label="No" />
-          </Form.Group>
-          <Button variant="success" type="submit" id="boton-proveedor">
-            Enviar
-          </Button>
-        </Form>
+      <div className="div-contacto">
+        <div className="div-form-proveedores-top">
+          <h3>Hazte proveedor</h3>
         </div>
-       
-
-</div>
-
+        <form
+          id="form-container"
+          action={`MAILTO:pro@saludmedical.com.mx?subject=Proveedor Pro Salud Medical`}
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="group">
+            <input className="input-btn" type="text" name="Nombre" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label className="label-btn">Escribe tu nombre completo</label>
+          </div>
+          <div class="group">
+            <input className="input-btn" type="email" name="Email" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label className="label-btn">Escribe tu correo electronico</label>
+          </div>
+          <div class="group">
+            <input
+              className="input-btn"
+              type="number"
+              name="Telefono"
+              required
+            />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label className="label-btn">Telefono</label>
+          </div>
+          <div class="group">
+            <textarea
+              type="text"
+              name="Que servicios ofrece?"
+              required
+              class="message-input input-btn"
+            />
+            <span class="highlight"></span>
+            <label className="label-btn">¿Que servicios ofrece?</label>
+          </div>
+          <p>¿Quieres que te contactemos por Whatsapp?</p>
+          <div className="radio-btn">
+            <div>
+              <input
+                type="radio"
+                id="Si"
+                name="Quieres que te contactemos por Whatsapp?"
+                value="Si"
+                checked
+              />
+              <label for="Si">Si</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="No"
+                name="Quieres que te contactemos por Whatsapp?"
+                value="No"
+              />
+              <label for="No">No</label>
+            </div>
+          </div>
+          <div>
+            <button class="submit-btn" type="submit" value="Send">
+              Enviar
+            </button>
+          </div>
+        </form>
       </div>
-
     </>
-
-  )
+  );
 }
 
-export default Proveedores
+export default Proveedores;

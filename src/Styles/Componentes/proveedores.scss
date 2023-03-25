@@ -1,108 +1,15 @@
-.div-proveedores {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
-    .div-form-proveedores {
-        width: 1145px;
-        height: 900px;
-        @media (max-width: 1200px){    
-            width: 900px;
-        }
-        @media (max-width: 992px){    
-            width: 700px;
-        }
-        @media (max-width: 768px){    
-            width: 460px;
-        }
-        @media (max-width: 480px){    
-            width: 350px;
-        }
-        @media (max-width: 370px){    
-            width: 280px;
-        }
-        
-
-        .div-form-proveedores-top {
-            
-            height: 82px;
-            background: #00A696;
-            display: flex;
-            padding-left: 116px;
-            align-items: center;
-            @media (max-width: 768px){
-                padding-left: 80px;}
-                @media (max-width: 480px){
-                    padding-left: 28px;
-                }
-                @media (max-width: 370px){
-                    padding-left: 10px;
-                }
-           
-            
-        }
-
-        .div-form-proveedores-bottom {
-            background: #D1D1D1;
-            height: 750px;
-            padding-left: 116px;
-            padding-right: 354px;
-            padding-top: 39px;
-            @media (max-width: 1200px){
-                .formForm{
-                    width: 600px;
-                }
-            }
-            @media (max-width: 992px){
-                .formForm{
-                    width: 460px;
-                }
-            }
-            @media (max-width: 768px){
-                padding-left: 80px;
-            padding-right: 120px;
-                .formForm{
-                    width: 300px;
-                }
-            }
-            @media (max-width: 480px){
-                padding-left: 28px;
-            }
-            @media (max-width: 370px){
-                padding-left: 10px;
-                padding: 10px;
-                .formForm{
-                    width: 245px;
-                }
-
-            }
-            @media (max-width: 1200px){
-
-            }
-            
-        }
-    }
-    #boton-proveedor{
-        
-      color: $color-claro;
-      border: $color-func-2;
-      font-size: 19px;
-      background-color: $color-func-2;
-      width: 100px;
-      padding: 5px 10px;
-      border-radius: 7px;
-      -webkit-border-radius: 7px;
-      -moz-border-radius: 7px;
-      -ms-border-radius: 7px;
-      -o-border-radius: 7px;
-      cursor: pointer;
-      transition: 0.2s ease;
-      -webkit-transition: 0.2s ease;
-      -moz-transition: 0.2s ease;
-      -ms-transition: 0.2s ease;
-      -o-transition: 0.2s ease;
-      &:hover {
-        background-color: rgba($color: $color-func-2, $alpha: 0.7);
-      }
-    }
+.div-form-proveedores-top {
+  background: #00a696;
+  display: flex;
+  width: Min(90%, 600px);
+  margin: auto;
+  height: 60px;
+  color: $color-claro;
+  font-family: "gotham_narrowbook";
+  font-size: 27px;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    margin: 0px;
+  }
 }
