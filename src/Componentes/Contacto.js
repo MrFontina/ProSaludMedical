@@ -61,6 +61,7 @@ const Contacto = () => {
               name={`${
                 empresa === true ? "Contacto Empresa" : "Contacto Personal"
               }`}
+              autocomplete="off"
               required
             />
             <span class="highlight"></span>
@@ -78,6 +79,7 @@ const Contacto = () => {
               className="input-btn"
               type="number"
               name="Telefono"
+              autocomplete="off"
               required
             />
             <span class="highlight"></span>
@@ -89,6 +91,7 @@ const Contacto = () => {
               className="input-btn"
               name="Localidad"
               type="text"
+              autocomplete="off"
               required
             />
             <span class="highlight"></span>
@@ -100,6 +103,7 @@ const Contacto = () => {
               className="input-btn"
               type="text"
               name="Fecha de Nacimiento"
+              autocomplete="off"
               required
               onFocus={(e) => {
                 e.currentTarget.type = "date";
@@ -118,6 +122,7 @@ const Contacto = () => {
             <textarea
               type="text"
               name="Mensaje"
+              autocomplete="off"
               required
               class="message-input input-btn"
             />
