@@ -15,23 +15,23 @@ const Servicios = () => {
         <div className="pres">
           <h2>Membresía Pro Salud Medical</h2>
           <p>
-            En Pro Salud Medical te ofrecemos una solucion integral al cuidado
+            En Pro Salud Medical te ofrecemos una solución integral al cuidado
             de tus empleados.
-            <br />A traves e nuestra <span>membresía</span>, tus colaboradores
+            <br />A través de nuestra <span>membresía</span>, tus colaboradores
             contaran con acceso a nuestra amplia red de proveedores que brindan
             servicios de alta calidad.
             <br />
           </p>
           <p>
-            Nuestros cuatro pilares se enfocan en el area de salud, asistencia
+            Nuestros cuatro pilares se enfocan en el área de salud, asistencia
             legal y del hogar, poliza de accidentes y beneficios para el
-            bienestar integral de tus colaboradores
+            bienestar integral de tus colaboradores.
           </p>
         </div>
         <div className="div-membresia">
           <div className="div-contrato">
             <h3>
-              <span className="h3-span-1">¿Por que</span>
+              <span className="h3-span-1">¿Por qué</span>
               <br />
               contratar nuestra
               <span className="h3-span-2">
@@ -45,7 +45,7 @@ const Servicios = () => {
                   <BsFillCheckCircleFill />
                 </div>
                 <p>
-                  Impactas en el bienestar de la sociedad atraves de tus
+                  Impactas en el bienestar de la sociedad a través de tus
                   colaboradores y sus familias.
                 </p>
               </li>
@@ -70,7 +70,7 @@ const Servicios = () => {
                 <div>
                   <BsFillCheckCircleFill />
                 </div>
-                <p>Reduces costos ocasionados por la rotacion del personal.</p>
+                <p>Reduces costos ocasionados por la rotación del personal.</p>
               </li>
               <li>
                 <div>

@@ -72,7 +72,7 @@ const Contacto = () => {
             <input className="input-btn" type="email" name="Email" required />
             <span class="highlight"></span>
             <span class="bar"></span>
-            <label className="label-btn">Escribe tu correo electronico</label>
+            <label className="label-btn">Escribe tu correo electrónico</label>
           </div>
           <div class="group">
             <input
@@ -84,7 +84,7 @@ const Contacto = () => {
             />
             <span class="highlight"></span>
             <span class="bar"></span>
-            <label className="label-btn">Telefono</label>
+            <label className="label-btn">Teléfono</label>
           </div>
           <div class="group">
             <input

@@ -11,12 +11,12 @@ const faq = () => {
         <article class="faq-container">
           <div class="faq-text">
             <p class="faq-res">
-              Los mas destacados son asistencia medica, asistencia funeraria,
-              apoyo a maternidad y poliza de accidentes personales, entre otros.
+              Los más destacados son asistencia médica, asistencia funeraria,
+              apoyo a maternidad y póliza de accidentes personales, entre otros.
             </p>
           </div>
           <div className="faq-front">
-            <h2>¿Que servicios manejamos?</h2>
+            <h2>¿Qué servicios manejamos?</h2>
             <MdOutlineExpandMore className="arrow-ico" />
           </div>
         </article>
@@ -36,12 +36,12 @@ const faq = () => {
         <article class="faq-container">
           <div class="faq-text">
             <p class="faq-res">
-              Si mediante un tramite y un ajuste en el precio dependiendo de los
-              familiares que la utilizaran
+              Si, mediante un trámite donde se ajustará el precio acorde a la
+              cantidad de miembros a afiliar a la cobertura
             </p>
           </div>
           <div className="faq-front">
-            <h2>¿Se puede hacer membresia familiar?</h2>
+            <h2>¿Se puede hacer membresía familiar?</h2>
             <MdOutlineExpandMore className="arrow-ico" />
           </div>
         </article>
@@ -60,12 +60,12 @@ const faq = () => {
         <article class="faq-container">
           <div class="faq-text">
             <p class="faq-res">
-              El tiempo de respuesta para una asistencia es aproximadaamente de
-              1(un) dia habil
+              El tiempo de respuesta para una asistencia es aproximadamente de
+              1(un) día hábil
             </p>
           </div>
           <div className="faq-front">
-            <h2>¿Cual es el tiempo de respuesta?</h2>
+            <h2>¿Cuál es el tiempo de respuesta?</h2>
             <MdOutlineExpandMore className="arrow-ico" />
           </div>
         </article>

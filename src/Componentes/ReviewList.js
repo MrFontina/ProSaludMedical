@@ -7,7 +7,7 @@ function ReviewList() {
     <div className="rev-div">
       <section className="container">
         <div className="title">
-          <h2>Conoce la opinion de nuestros afiliados</h2>
+          <h2>Conoce la opinión de nuestros afiliados</h2>
           <div className="underline"></div>
         </div>
         <Slider />

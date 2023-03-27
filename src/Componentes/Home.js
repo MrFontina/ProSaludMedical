@@ -12,7 +12,7 @@ const Home = () => {
         <div class="banner-bg">
           <div class="banner-presentacion">
             <h2>PRO SALUD MEDICAL</h2>
-            <h3>El programa de asistencias mas completo de Mexico</h3>
+            <h3>El programa de asistencias más completo de Mexico</h3>
             <p>¿Quieres brindarle a tus empleados los mejores beneficios?</p>
             <button class="banner-button">
               <Link to="/servicios">Conocer servicios</Link>
@@ -41,15 +41,15 @@ const Home = () => {
             }}
           >
             <img alt="" src="../../Images/medicos_grupo.png" />
-            <p>Mas de 5000 proveedores de salud en todo el pais</p>
+            <p>Más de 5000 proveedores de salud en todo el pais</p>
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/hospital.jpg" />
-            <p>Convenio con mas de 300 hospitales</p>
+            <p>Convenio con más de 300 hospitales</p>
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/analisis.jpg" />
-            <p>Asociados a mas de 200 laboratorios y gabinetes</p>
+            <p>Asociados a más de 200 laboratorios y gabinetes</p>
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/Urologia.png" />
@@ -57,7 +57,7 @@ const Home = () => {
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/dentista.png" />
-            <p>Servicios odontologicos</p>
+            <p>Servicios odontológicos</p>
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/vial.jpg" />
@@ -79,7 +79,7 @@ const Home = () => {
         <div class="app-info">
           <h2>PRO SALUD MEDICAL</h2>
           <p>
-            Descarga nuestra aplicacion y descubre todo lo que puedes hacer.
+            Descarga nuestra aplicación y descubre todo lo que puedes hacer.
           </p>
           <div className="app-img">
             <img src="../../Images/googleapp.png" alt="googleapp" />
