@@ -53,7 +53,7 @@ const Home = () => {
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/Urologia.png" />
-            <p>Red medica con mas de 3000 profesionales</p>
+            <p>Red médica con más de 3000 profesionales</p>
           </article>
           <article class="reveal">
             <img alt="" src="../../Images/dentista.png" />
